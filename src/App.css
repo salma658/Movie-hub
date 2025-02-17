@@ -1,0 +1,84 @@
+/* Styles globaux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+  }
+  
+  /* Conteneur principal */
+  .app-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Titres */
+  h1, h2, h3 {
+    color: #ffcc00;
+  }
+  
+  /* Liens */
+  a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles pour la navigation */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #333;
+  }
+  
+  .navbar h1 {
+    font-size: 24px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar a {
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background 0.3s;
+  }
+  
+  .navbar a:hover {
+    background: #ffcc00;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  /* Container principal des pages */
+  .page-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar ul {
+      padding: 10px 0;
+    }
+  }
+  

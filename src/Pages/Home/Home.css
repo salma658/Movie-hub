@@ -1,0 +1,72 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style du sélecteur de catégorie */
+.home select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.home select:hover {
+  border-color: #0056b3;
+}
+
+.home select:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 91, 187, 0.5);
+}
+
+/* Loader et message d'erreur */
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Liste des films */
+.movies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.movie-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-card h3 {
+  font-size: 1.1rem;
+  padding: 10px;
+  color: #333;
+}

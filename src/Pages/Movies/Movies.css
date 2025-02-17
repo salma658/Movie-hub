@@ -1,0 +1,10 @@
+.movies-page {
+  padding: 20px;
+  color: white;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}

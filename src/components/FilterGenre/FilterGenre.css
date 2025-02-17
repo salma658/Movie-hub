@@ -1,0 +1,8 @@
+.filter-genre {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .filter-genre select {
+    padding: 8px;
+  }
+  
